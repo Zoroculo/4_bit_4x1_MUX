@@ -1,6 +1,7 @@
 library ieee;
 use ieee.std_logic_1164.all;
 
+--Use the Gates package already uploaded in my previous repository named AND_using_NAND. 
 library work;
 use work.Gates.all;
 
@@ -10,6 +11,7 @@ entity PART_C is
 end entity;
 
 architecture struct of PART_C is
+	--The code for PART_B component is uploaded in my previous repository named 4x1_MUX.
 	component PART_B is
 	port(In5,In4,In3,In2,S2,S1:in std_logic;
 			Y: out std_logic);
